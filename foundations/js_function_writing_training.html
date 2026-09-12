@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training JS function writing</title>
+</head>
+<p></p>
+<body>
+    <script>
+        function add7(aNumber){return (aNumber + 7);};
+        const aNumber=10;
+        console.log(add7(aNumber));
+
+        function multiply(n1, n2){return n1*n2;};
+        console.log(multiply(2,3));
+
+        function capitalize(aString){return aString[0].toUpperCase() + aString.slice(1).toLowerCase()};
+        console.log(capitalize("aBcD"), capitalize("ABCD"), capitalize("aBcD"));
+
+        function lastLetter(aString){return aString.slice(-1)};
+        console.log(lastLetter("Animal"));
+    </script>
+</body>
+</html>
